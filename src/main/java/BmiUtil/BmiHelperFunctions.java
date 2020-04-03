@@ -6,7 +6,7 @@ import java.util.List;
 
 public class BmiHelperFunctions
 {
-    //** Creating independent BMI related Methods -  Independent methods, makes Unit-testing easier/efficient **
+    //** This class creates independent BMI related Methods (for calculation) -  Independent methods, makes Unit-testing easier/efficient **
 
     //Create a method to calculcate BMI
     public static Double calcBmi(Double height, Double weight) //height and weight in its parameters.
@@ -43,7 +43,7 @@ public class BmiHelperFunctions
         return kategori;
     }
 
-    //create a method that contains 'Sport' obj (Class) to get a sport category getting the sportList.
+    //create a method that contains 'Sport' obj (Class) to get a sport category by getting the sportList.
     public static Sport getSportCategoryById(int id)
     {
         //Call/get the 'sportlist' from "Initializer" and save it in the 'sportList' which contains a list of Sport obj.

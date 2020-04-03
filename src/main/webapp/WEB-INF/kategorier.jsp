@@ -29,8 +29,8 @@
 
                          <!--'name': used to differentiate the 'ret' and 'fjern' buttons. -->
                          <!--'value': used to send the name of the desired sportItem.. -->
-                         <button type="submit" name="fjernknap" value="${sportItem.name}" class="btn btn-primary">Fjern</button>
-                         <button type="submit" name="retknap" value="${sportItem.name}" class="btn btn-primary">Ret</button>
+                         <button type="submit" name="fjernknap" value="${sportItem.sports_id}" class="btn btn-primary">Fjern</button>
+                         <button type="submit" name="retknap" value="${sportItem.sports_id}" class="btn btn-primary">Ret</button>
 
 
                           </td></tr>

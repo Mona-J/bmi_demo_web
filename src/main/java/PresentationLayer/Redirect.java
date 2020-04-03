@@ -5,7 +5,8 @@ import FunctionLayer.LoginSampleException;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-//This class redirects the destination of "resultat.jsp" to "index.jsp".
+//This class redirects the destination from "resultat.jsp" back to "index.jsp"
+// NOTE: Mainly for showing a message when the 'Forside' hyperlink is pressed.
 public class Redirect extends Command {
 
     @Override
